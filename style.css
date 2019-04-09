@@ -1,0 +1,124 @@
+header {
+	background: linear-gradient(rgba(83, 86, 56, 0.4),
+					rgba(83, 86, 56, 0.4)
+					), 
+					url(images/header-bg.jpg) no-repeat center right;
+	background-size: cover;
+	margin-bottom: 60px;
+}
+
+h1 {
+	font-family: 'Faster One', cursive;
+	font-size: 60px;
+	color: #EFE6C0;
+	margin: 0;
+	padding: 25% 0;
+}
+
+p {
+	font-family: 'Ultra', serif;
+	font-size: 20px;
+	color: #535638;
+	margin: 14px 4px 0 0px;
+	text-align: center;
+}
+
+button {
+	font-family: 'Faster One', cursive;
+	font-size: 22px;
+	-webkit-box-shadow: 3px 7px 15px rgba(0, 0, 0, 0.3);
+	        box-shadow: 3px 7px 15px rgba(0, 0, 0, 0.3);
+}
+
+/*Boarding pass background*/
+#boarding-pass {
+	background: url(images/boarding-pass.jpg) no-repeat top left;
+	background-size: cover;
+	margin-bottom: 60px;
+}
+
+#boarding-pass .row {
+	padding: 0 0 60px 0;
+}
+#boarding-pass .row:first-child {
+	padding-top: 45px;
+}
+
+#boarding-pass .row:nth-child(2) {
+	padding-bottom: 30px;
+}
+
+#boarding-pass .row:last-child {
+	padding-bottom: 18%;
+	text-align: center;
+}
+/*/Boarding pass background*/
+
+/*'Ready to start living' text*/
+#ready p {
+	font-family: 'Faster One', cursive;
+	font-size: 30px;
+}
+/*/'Ready to start living' text*/
+
+/*Balls*/
+.ball {
+	background: url(images/ball-bg.png) no-repeat center center;
+	background-size: cover;
+	width: 65px;
+	height: 70px;
+}
+
+#yellow-ball {
+	background: url(images/yellow-ball-bg.png) no-repeat center center;
+	background-size: cover;
+	width: 65px;
+	height: 70px
+}
+
+/*/Balls*/
+
+/*Button*/
+.btn-primary {
+	background-color: rgba(239, 230, 192, .75);
+	border: 3px solid transparent;
+	color: #535638;
+}
+	.btn-primary:hover {
+		background-color: rgba(239, 230, 192, .75);
+		border: 3px solid #535638;
+		color: #535638;
+	}
+
+.btn-lg {
+	border-radius: 5px;
+	padding: 15px 20px;
+}
+/*/Button*/
+
+@media only screen and (max-width: 576px) {
+	header {
+		background: linear-gradient(rgba(83, 86, 56, 0.4),
+					rgba(83, 86, 56, 0.4)
+					), 
+					url(images/header-bg-mobile.jpg) no-repeat center right;
+		background-size: cover;	
+	}
+
+	h1 {
+	padding: 20% 0 50% 0;
+	}
+	
+	/*Boarding pass background*/
+	#boarding-pass {
+		background: url(images/boarding-pass-mobile.jpg) no-repeat top left;
+		background-size: cover;
+		padding-bottom: 200%;
+		margin-bottom: 60px;
+	}
+
+	#boarding-pass .row:first-child {
+	padding-top: 120px;
+	}
+	/*/Boarding pass background*/
+}
